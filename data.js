@@ -3147,7 +3147,7 @@ const GRAMMAR = [
         meaning: "Common patterns: noun + -ful (hope\u2192hopeful), noun + -ous (danger\u2192dangerous), noun + -al (nation\u2192national), noun + -ive (act\u2192active).",
         sentences: ["The situation is extremely {blank}. (danger)", "He gave a very {blank} speech. (emotion)", "The results were very {blank}. (success)", "She is a very {blank} person. (create)"],
         answers: ["dangerous", "emotional", "successful", "creative"],
-        options: [["dangerous", "dangered", "dangering", "dangerful"], ["emotional", "emotioned", "emotioning", "emotionful"], ["successful", "successed", "successing", "successful"], ["creative", "created", "creating", "createful"]]
+        options: [["dangerous", "dangered", "dangering", "dangerful"], ["emotional", "emotioned", "emotioning", "emotionful"], ["successful", "successed", "successing", "successive"], ["creative", "created", "creating", "createful"]]
     },
     {
         rule: "Tenses: Present Perfect for Duration", category: "tenses", level: "middle",
@@ -4246,7 +4246,7 @@ const GRAMMAR = [
         meaning: "Present continuous describes temporary situations, even if not happening at this exact moment.",
         sentences: ["She's {blank} with friends until she finds an apartment.", "I'm {blank} a fascinating book at the moment.", "He's {blank} French this semester.", "They're {blank} in a hotel while their house is renovated."],
         answers: ["staying", "reading", "studying", "staying"],
-        options: [["staying", "stays", "stayed", "stay"], ["reading", "reads", "read", "reads"], ["studying", "studies", "studied", "study"], ["staying", "stays", "stayed", "stay"]]
+        options: [["staying", "stays", "stayed", "stay"], ["reading", "reads", "read", "to read"], ["studying", "studies", "studied", "study"], ["staying", "stays", "stayed", "stay"]]
     },
     {
         rule: "Tenses: Will vs Going to Review", category: "tenses", level: "middle",
